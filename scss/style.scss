@@ -16,9 +16,23 @@ body {
   justify-content: left; 
 }
 
-.fotologo{
- width:230px;
- border-radius: 40px; 
+
+.logoanimado {
+  width: 50px
+  border-radius:30px;
+  animation: rotate;
+}
+
+@keyframes rotate {
+  0% { 
+    transform: rotate (0deg);
+  }
+  16.67% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform:rotate(360deg);
+  }
 }
 
 
