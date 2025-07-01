@@ -17,13 +17,14 @@ body {
 }
 
 .logoanimado {
-  width: 230px
+  width: 50px
   border-radius:30px;
-  animation: rotar;
+  animation: rotate;
 }
-@keyframes rotar {
+
+@keyframes rotate {
   0% { 
-    transform: rotate(0deg);
+    transform: rotar(0deg);
   }
   16.67% {
     transform: rotate(360deg);
