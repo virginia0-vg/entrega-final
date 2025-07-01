@@ -24,7 +24,7 @@ body {
 
 @keyframes rotate {
   0% { 
-    transform: rotar(0deg);
+    transform: rotate (0deg);
   }
   16.67% {
     transform: rotate(360deg);
