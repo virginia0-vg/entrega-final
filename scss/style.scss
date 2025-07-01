@@ -18,7 +18,7 @@ body {
 
 
 .logoanimado {
-  width: 50px
+  width: 50px !important; 
   border-radius:30px;
   animation: rotate 12s linear infinite;
 }
