@@ -47,7 +47,6 @@ header {
   100% { transform: rotate(360deg); }
 }
 
-
 .item {
   nav {
     background-color: $primary-color;
@@ -104,7 +103,6 @@ main {
   }
 }
 
-
 h2, h3 {
   color: $secondary-color;
   text-align: center;
@@ -120,7 +118,6 @@ h3 {
   font-size: 22px;
   margin-top: 30px;
 }
-
 
 footer {
   .item3 {
@@ -153,11 +150,22 @@ footer {
     background-color: $primary-color;
   }
 
+  .btn-secondary.dropdown-toggle {
+    animation: shake 0.5s infinite;
+  }
+
   .dropdown-item {
     color: $background-color;
   }
 }
 
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
 
 @media (max-width: 600px) {
   header .encabezado {
